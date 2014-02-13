@@ -3,8 +3,8 @@ source: http://suite.opengeo.org/opengeo-docs/installation/ubuntu/install.html
 __1. Change to the root user:__
 
     sudo su -
-
-    Import the OpenGeo GPG key:
+    
+Import the OpenGeo GPG key:
 
     wget -qO- http://apt.opengeo.org/gpg.key | apt-key add -
 
