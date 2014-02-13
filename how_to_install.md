@@ -1,6 +1,6 @@
 source: http://suite.opengeo.org/opengeo-docs/installation/ubuntu/install.html
 
-1. Change to the root user:
+__1. Change to the root user:__
 
     sudo su -
 
@@ -20,7 +20,7 @@ source: http://suite.opengeo.org/opengeo-docs/installation/ubuntu/install.html
 
     exit
 
-2. After successful installation. The opengeo installation does not create a postgis_template database..here's how.
+__2. After successful installation. The opengeo installation does not create a postgis_template database..here's how.__
 
 source: http://gis.stackexchange.com/questions/80563/how-to-install-postgis-correctly-with-opengeo-suite-4-0-community-edition-on-ubu
 
@@ -30,7 +30,7 @@ source: http://gis.stackexchange.com/questions/80563/how-to-install-postgis-corr
 
     \q
 
-3. Open pg_hba.conf in text editor
+__3. Open pg_hba.conf in text editor__
 
     leafpad /etc/postgresql/9.3/main/pg_hba.conf
 
