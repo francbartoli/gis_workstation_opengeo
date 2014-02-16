@@ -49,6 +49,6 @@ Save file changes
 
     createdb -U [new username] -W -E UTF8 [new postgis template name]
 
-    psql -U [new postgis template name] -W
+    psql -U [new username] -W -d [new postgis template name]
 
     create extension postgis;
