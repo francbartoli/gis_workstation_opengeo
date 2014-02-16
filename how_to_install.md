@@ -52,8 +52,11 @@ Save file changes
     psql -U [new username] -W -d [new postgis template name]
 
     create extension postgis;
-    
-__To change the User postgres' password
+
+
+
+__To change the User postgres' password__
+
 
     psql -U [new username] -d postgis_template -W
     
